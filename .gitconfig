@@ -24,6 +24,17 @@
     ui = true
     status = true
 
+[alias]
+    lg = log --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+    lgnm = log --no-merges --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+    lgfiles = log --no-merges --name-status --all --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+    dirdiff = difftool --dir-diff
+
+    ss = status -s
+
 #[diff]
     #tool = winmerge
 #[difftool "winmerge"]
