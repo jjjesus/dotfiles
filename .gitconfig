@@ -1,3 +1,37 @@
 [user]
 	email = john.j.jesus@gmail.com
 	name = John Jesus
+[http]
+        sslVerify = false
+[core]
+    autocrlf = true
+    safecrlf = false
+    editor = gvim
+
+[diff]
+    tool = meld
+
+[difftool]
+    prompt = false
+
+[push]
+    default = matching
+
+[merge]
+    tool = meld
+    conflictstyle = merge
+[color]
+    ui = true
+    status = true
+
+#[diff]
+    #tool = winmerge
+#[difftool "winmerge"]
+    #cmd = winmerge.sh "$LOCAL" "$REMOTE"
+#[core]
+    #editor = sublime_text -n -w
+#[difftool "bc3"]
+    #path = c:/program files (x86)/beyond compare 3/bcomp.exe
+#[difftool "kdiff3"]
+    #path = c:/program files (x86)/KDiff3/kdiff3.exe
+
