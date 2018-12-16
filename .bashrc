@@ -13,3 +13,6 @@ export JAVA_HOME=/usr/java/jdk1.8.0_161
 export MAVEN_HOME=/usr/maven/apache-maven-3.5.3
 export PATH=$MAVEN_HOME/bin:$JAVA_HOME/bin:$PATH
 
+#export PS1="\u@\h \w:$ "
+export PS1="[\w ]$ "
+
