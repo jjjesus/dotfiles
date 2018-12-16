@@ -11,5 +11,12 @@ call plug#begin()
 Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-sensible'
 Plug 'sheerun/vim-polyglot'
+Plug 'altercation/vim-colors-solarized'
 call plug#end()
+
+if has('gui_running')
+	syntax enable
+	set background=dark
+	colorscheme solarized
+endif
 
