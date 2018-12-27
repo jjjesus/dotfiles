@@ -4,9 +4,12 @@
 [http]
         sslVerify = false
 [core]
-    autocrlf = true
-    safecrlf = false
     editor = gvim
+# Settings below are for Windows compatibility,
+# seem to break some things on Linux
+#
+#    autocrlf = true
+#    safecrlf = false
 
 [diff]
     tool = meld
